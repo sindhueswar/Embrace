@@ -1,0 +1,144 @@
+.slider {
+  padding-top: 50px;
+  padding-left: 120px;
+}
+.slidehead {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 120px;
+  margin-bottom: 20px;
+}
+.slider-header {
+  font-family: var(--font);
+  font-size: 50px;
+  letter-spacing: -1px;
+  margin: 20px;
+  margin-left: 0;
+}
+.sliderheader {
+  font-family: var(--font);
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin: 20px;
+  margin-left: 0;
+}
+
+.person-opinion {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: var(--fweight);
+  line-height: 32px;
+  text-align: left;
+  margin-top: 30px;
+}
+.item {
+  background: #f8f9ff;
+  width: 450px;
+  height: 300px;
+
+  box-sizing: border-box;
+  display: flex;
+  padding: 35px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 19px;
+  border-radius: 30px;
+  margin: 10px 15px;
+  transition: 1s ease-in-out;
+}
+
+.active {
+  background-color: var(--blue);
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.carousels-content {
+  overflow-x: hidden;
+  background: #f8f9ff;
+  padding: 40px;
+  border-radius: 35px;
+}
+.carousel-container {
+  width: 100%;
+}
+.Slider-post {
+  font-family: var(--font);
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.Slidename{
+  display: block;
+
+   margin-Left: 30px;
+   margin-Top: 10px;
+}
+.iteamheader{
+  display: flex;
+}
+
+@media (width< 1200px) {
+  .slider{
+    padding: 0;
+  }
+  .slidehead{
+    padding: 0;
+    margin: 0 10%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .slider-header{
+    font-size: 150%;
+    letter-spacing:1px;
+    margin: 10% 0;
+    margin-left: 3%;
+    /* align-items: center; */
+    
+  }
+  .icon-container{
+    display: flex;
+  }
+  .slidericons{
+    width: 50%;
+    height: 50%;
+  }
+  
+}
+
+
+
+
+@media (width< 500px) {
+  /* .slider{
+    padding: 0% %;
+  } */
+  .item{
+    padding: 5%;
+    max-width: 270px;
+  }
+  .iteamheader{
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+  }
+  .sliderheader,.Slider-post{
+    font-size: 70%;
+    letter-spacing: 0.1px;}
+  .Slidename{
+    margin-left: 5%;
+  }
+  .person-opinion{
+    font-size: 70%;
+    max-width: 250px;
+  }
+  .slider-header{
+    font-size: 110%;
+    letter-spacing: 0.1px;
+    /* margin: 20px; */
+    margin-right: 0;
+ }
+}
+
+
+

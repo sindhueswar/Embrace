@@ -1,0 +1,222 @@
+.accordion {
+  margin: 5% 0% 5% 0%;
+  cursor: pointer;
+  text-align: left;
+  height: 140px;
+}
+.Accordiontitle {
+  font-family: var(--font);
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 20px;
+  /* margin-top: 20px; */
+}
+.accordion-content {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: var(--fweight);
+  line-height: 32px;
+  margin-left: 20px;
+  animation: fadeinout 7s linear forwards;
+}
+
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  28.57%,
+  71.43% {
+    opacity: 1;
+  }
+  85.71%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.accordion-entering,
+.accordion-entered {
+  max-height: 400px;
+}
+
+.open {
+  transition: transform 3s ease-in-out;
+}
+.imgtrans {
+  transition: opacity 2s ease-in-out;
+}
+.accordion-header {
+  transition: transform 3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width< 1200px) {
+  .how{
+    text-align: center;
+  }
+  .howdesc{
+    padding: 0;
+    font-size: 1.5em;
+  }
+  .working {
+    display: block;
+  }
+.working1,.working2{
+  width: 100%;
+}
+.working1{
+  display: flex;
+}
+
+.image-column,.picture-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px; 
+}
+.accordionpic{
+  margin-top: 10px;
+  width: 100%;
+}
+.working{padding: 0% 10%;
+  text-align: center;
+ 
+}
+.howtext{
+  width: 80%;
+  align-items: center;
+}
+  .how{
+    font-size: 180%;
+    width: 80%;
+  }
+  .howdesc{
+    font-size:110% ;
+    line-height: 120%;
+    margin: 8% 0;
+    width: 80%;
+  }
+  .accordion{
+    height: 6em;
+    margin-top: 10%;
+  }
+  .accordionicon{
+    height: 70px;
+    width: 70px;
+  }
+  .Accordiontitle{
+    font-size: 150%;
+  }
+}
+@media (width< 800px) {
+  .working1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .working2{
+    margin-top: 18%;
+  }
+  .howtext{
+    width: 100%;
+  }
+  .how{
+    font-size: 110%;    
+  }
+  .howdesc{
+    font-size:70% ;
+    line-height: 150%;
+    margin: 8%;
+    margin-left: 0;
+    text-align: justify;
+  }
+  .accordionicon{
+    height: 50px;
+    width: 50px;
+  }
+  .Accordiontitle{
+    font-size: 120%;
+  }
+  .accordion{
+    height: 6em;
+  }
+}
+@media (width< 500px) {
+  .working1{
+    display:block;
+  }
+  .working{padding: 0% 10%;
+  text-align: center;
+}
+.working2{
+  margin-top: 15%;
+}
+  .how{
+    font-size: 120%;
+    width: 100%;
+  }
+  .howdesc{
+    font-size:80% ;
+    line-height: 120%;
+    margin: 8% 0;
+    width: 100%;
+  }
+  .accordion{
+    height: 4.5em;
+  }
+  .accordionicon{
+    height: 30px;
+    width: 30px;
+  }
+  .Accordiontitle{
+    font-size: 120%;
+  }
+  .accordion-content{
+    font-size: 60%;
+    line-height: 110%;
+  }
+
+}

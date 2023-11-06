@@ -1,0 +1,87 @@
+:root {
+  --blue: #3461ff;
+  --font: "General Sans Variable", sans-serif;
+  --fweight: 500;
+}
+.App {
+  display: block;
+}
+/* .herosec {
+  padding: 84px 120px;
+} */
+.how {
+  font-family: var(--font);
+  font-size: 64px;
+  font-weight: var(--fweight);
+  letter-spacing: -1px;
+  margin-top: 20px;
+}
+.howdesc {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--font);
+  font-size: 16px;
+  padding-right: 70px;
+  font-weight: var(--fweight);
+  line-height: 36px;
+  margin-top: 40px;
+}
+.image1 {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+}
+.accordionpic {
+  width: 380px;
+  margin-top: 100px;
+  animation: fadeinout 7s linear forwards;
+}
+.working{
+    display:flex;
+    padding: 0 120px ;
+    justify-content: space-between;
+}
+.working1,.working2{
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

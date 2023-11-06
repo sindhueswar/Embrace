@@ -1,0 +1,239 @@
+.commitments {
+  padding: 80px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.counter1 {
+  display: flex;
+  justify-content: space-between;
+}
+.counter2 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+}
+.count-line1,
+.count-line2 {
+  width: fit-content;
+  padding-right: 50px;
+  justify-content: space-around;
+}
+.count,
+.count1,
+.count2 {
+  font-family: var(--font);
+  font-size: 64px;
+  font-weight: 600;
+  margin: 0;
+  /* text-align: center; */
+}
+.countdesc {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: var(--fweight);
+  line-height: 24px; /* 150% */
+}
+.Counttext {
+  width: 50%;
+}
+.counttitle {
+  font-family: var(--font);
+  font-size: 64px;
+  font-weight: var(--fweight);
+  letter-spacing: -1px;
+}
+.Counttextdesc {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: var(--fweight);
+  line-height: 32px;
+  margin: 30px 0;
+}
+.link {
+  color: var(--blue);
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+  background: transparent;
+  border: none;
+  margin-top: 70px;
+}
+
+.commitcounter {
+  width: 50%;
+  margin-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (width< 1034px) {
+  .commitments {
+    display: block;
+    
+  }
+  .commitcounter {
+    width: 100%;
+
+  }
+  .counter1,
+  .counter2 {
+    justify-content: space-around;
+  }
+  .counter2 {
+    padding: 0;
+  }
+  .countdesc {
+    font-size: 1.5em;
+  }
+  .count1 {
+    margin-right: 150px;
+  }
+  .Counttext {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .Counttextdesc {
+    font-size: 1.5em;
+  }
+  .link {
+    margin-top: 5px;
+  }
+} */
+
+
+
+@media (width<1200px) {
+  .commitments {
+    display: block;
+    /* padding: 0; */
+    padding:  10% ;
+    
+  }
+  .commitcounter{
+    width: 80%;
+    margin: 0;
+    
+  }
+  .counter2{
+    padding: 0;
+  }
+  .count,.count1,.count2{
+    text-align: left;
+    font-size: 300%;
+  }
+  .Counttext{
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+  }
+  .counttitle{
+    font-size: 180%;
+    text-align: center;
+  }
+  .Counttextdesc{
+    font-size: 110%;
+    line-height: 110%;
+  }
+  .link{
+    margin-top: 0%;
+  }
+}
+
+
+@media (width<800px) {
+  .count,.count1,.count2{
+    font-size: 200%;
+  }
+  .commitcounter{
+    padding: 12%;
+  }
+  .Counttext{
+    margin-top: 0%;}
+}
+@media (width<500px) {
+  .commitcounter{
+    /* width: 80%; */
+    padding: 10%;
+  }
+  .counter1,
+  .counter2 {
+    justify-content: space-between;
+  }
+  .count,.count1,.count2{
+    font-size: 200%;
+  }
+ .countdesc{
+  font-size: 60%;
+  line-height: 110%;
+ }
+
+ .Counttext{
+  margin-top: 5%;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.counttitle{
+  font-size: 120%;
+  text-align: center;
+}
+.Counttextdesc{
+  font-size: 80%;
+  line-height: 110%;
+  margin: 4% 0;
+}
+.link{
+  margin-top: 1%;
+  font-size: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linksvg{
+  height: 50%;
+}
+}

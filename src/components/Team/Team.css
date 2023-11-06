@@ -1,0 +1,461 @@
+.team {
+  padding: 0px 120px;
+}
+.banner {
+  flex-shrink: 0;
+  width: 1040px;
+  height: 473px;
+  position: relative;
+  overflow: hidden;
+}
+.banner2 {
+  background: #3561ff;
+  border-radius: 32px;
+  width: 1000px;
+  height: 371px;
+  position: absolute;
+  /* left: calc(50% - 600px); */
+  top: 100px;
+  overflow: hidden;
+}
+.circles {
+  position: absolute;
+  inset: 0;
+}
+.circle1 {
+  background: linear-gradient(
+    177.26deg,
+    rgba(52, 97, 255, 1) 0%,
+    rgba(131, 153, 233, 1) 100%
+  );
+  border-radius: 50%;
+  width: 463.69px;
+  height: 460.72px;
+  position: absolute;
+  left: 500.69px;
+  top: -44px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.circle2 {
+  background: linear-gradient(
+    177.26deg,
+    rgba(52, 97, 255, 1) 0%,
+    rgba(131, 153, 233, 1) 100%
+  );
+  border-radius: 50%;
+  width: 463.69px;
+  height: 460.72px;
+  position: absolute;
+  left: 745.29px;
+  top: -44px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.circle3 {
+  background: linear-gradient(
+    177.26deg,
+    rgba(52, 97, 255, 1) 0%,
+    rgba(131, 153, 233, 1) 100%
+  );
+  border-radius: 50%;
+  width: 463.69px;
+  height: 460.72px;
+  position: absolute;
+  left: 280.94px;
+  top: -44px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.circle4 {
+  background: linear-gradient(
+    177.26deg,
+    rgba(52, 97, 255, 1) 0%,
+    rgba(131, 153, 233, 1) 100%
+  );
+  border-radius: 50%;
+  width: 463.69px;
+  height: 460.72px;
+  position: absolute;
+  left: 61.18px;
+  top: -44px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.elevate {
+  color: #ffffff;
+  text-align: left;
+  font: var(--fweight) 54px/77px var(--font);
+  position: absolute;
+  margin: 80px 70px;
+  width: 393px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 550px;
+  top: calc(50% - 87.5px);
+  padding-right: 70px;
+}
+.ready {
+  color: #ffffff;
+  text-align: left;
+  font: var(--fweight) 18px/38px var(--font);
+  position: relative;
+  /* width: 483px; */
+}
+.bookbtn {
+  background: #ffffff;
+  border-radius: 64px;
+  padding: 10px 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.book-call {
+  color: #000000;
+  text-align: left;
+  font: var(--fweight) 20px var(--font);
+  position: relative;
+}
+.our-team {
+  padding-top: 80px;
+  flex-shrink: 0;
+  width: 1040px;
+  height: 336px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-114 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  padding-left: 10px;
+}
+.frame-112 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.frame-113 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.meet {
+  color: #000000;
+  text-align: left;
+  font: var(--fweight) 50px var(--font);
+  position: absolute;
+  left: 573px;
+  width: 474px;
+}
+.discover {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  font: 400 15px/32px var(--font);
+  position: absolute;
+  left: 573px;
+  margin-top: 80px;
+  width: 486px;
+}
+.frame-20 {
+  background: #3461ff;
+  border-radius: 69px;
+  padding: 10px 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 573px;
+  margin-top: 250px;
+}
+.learn-more {
+  color: #ffffff;
+  text-align: left;
+  font: var(--fweight) 16px var(--font);
+  position: relative;
+}
+.teampicscircle {
+  width: 140px;
+  height: 140px;
+  aspect-ratio: 1;
+  border: calc(140 / 2) solid var(--blue);
+  border-radius: 50px;
+  outline-offset: calc(140 / -2);
+  cursor: pointer;
+  transition: 0.3s;
+  padding-top: 2px;
+}
+.teampicscircle:hover {
+  outline: 4px solid var(--blue);
+  outline-offset: 2px;
+}
+.teampicssq {
+  width: 140px;
+  height: 140px;
+  aspect-ratio: 1;
+  border: calc(140 / 2) solid var(--blue);
+  border-radius: 35px;
+  outline-offset: calc(140 / -2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.teampicssq:hover {
+  outline: 4px solid var(--blue);
+  outline-offset: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+  @media (width< 1200px) {
+     .team{
+      display:block;
+      max-width: 1199px;
+      padding: 0;
+      justify-content: center;
+     }
+     
+    .banner2,.our-team{
+      width: 100%;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      height: 60%;
+    }
+    .elevate{
+      width: 100%;
+      margin: 0;
+     }
+     .circle1,.circle2,.circle3,.circles{
+      display:none;
+     }
+     
+     .container1{
+      margin-top: 10%;
+      margin-left: 10%;   
+      padding: 0;
+      left:0;
+      top:0;
+      height: fit-content;
+     }
+     .bookbtn{
+      
+      padding: 2%;
+      margin: 0% 38%;
+     }
+
+    .banner{
+      width: 85%;
+      /* height: 150%; */
+      margin: 0% 4%;
+      top: 0;
+      bottom: 0;
+    }
+    .elevate,.container1,.ready{
+      width: 90%;
+       height: fit-content;
+    }
+    .banner2{
+      align-items: center;
+      top: 0;
+      bottom: 0;
+    }
+       .banner,.our-team{
+      width: 85%;
+      margin: 0% 5%;
+    }
+    .elevate,.container1,.ready{
+      width: 90%;
+       height: fit-content;
+    }
+    .elevate{
+      font-size: 180%;
+      line-height: 120%;
+      margin: 4% 0%;
+      text-align: center;
+   
+    }    
+      .ready{
+        font-size: 90%;
+      line-height: 120%;
+      margin: 4% 0%;
+      text-align: center;
+      }
+      .frame-114{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .frame-112,.frame-113{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+      }
+      .our-team{
+        display: flex;
+      }
+      .teamdesc{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* align-items: center; */
+        margin: 10%;
+        margin-right: 0;
+      }
+      .meet,.discover,.frame-20{
+        left: 0;
+      }
+      .meet{
+        font-size: 140%;
+        text-align: center;
+        width: fit-content;
+        margin: 5%;
+        position:relative;
+      }
+      .discoverbr{
+        display: none;
+      }
+      .discover{
+        /* font-size: 80%; */
+        width: fit-content;
+        text-align: center;
+        position: relative;
+        margin: 0 5%;
+      }
+      .frame-20{
+        margin: 5% 25%;
+        padding: 3%;
+        position:relative;
+      }
+      .learn-more{        
+        font-size: 70%;
+      }
+     }
+     @media (width< 900px) {
+      .container1{
+        margin-top: 15%;
+      }
+      .bookbtn{     
+        padding: 2%;
+        margin: 0% 35%;
+       }
+       .banner{
+        margin: 8%;}
+        .our-team{
+          margin: 2%;
+        }
+        .discover{
+          margin: 10%;
+        }
+        .learn-more{
+          font-size: 90%;
+        }
+     }
+     @media (width< 580px) {
+      .container1{
+        margin-top: 30%;
+      }
+      .bookbtn{
+     
+        padding: 2%;
+        margin: 0% 30%;
+       }
+       .frame-112,.frame-113{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .our-team{
+        margin: 4%;
+       
+       }
+       .meet{
+        margin: 10% 1%;
+        text-align: center;
+       }
+       .discover{
+        font-size: 80%;
+        width: fit-content;
+        text-align: center;
+        margin: 1% 6%;
+      }
+      .frame-20{
+        margin: 20% 30%;
+        
+      }
+      .learn-more{
+        font-size: 60%;
+        /* margin-top: 10%; */
+      }
+     }
+     @media (width<400px){
+      .container1{
+        margin-top: 40%;
+      }
+     
+      .bookbtn{     
+        padding: 2%;
+        margin: 0% 25%;
+       }
+      .our-team{
+        margin: 4%;
+       
+       }
+       .meet{
+        margin: 10% 20%;
+        text-align: center;
+       }
+       .discover{
+        font-size: 80%;
+        width: fit-content;
+        text-align: center;
+        margin: 1% 6%;
+      }
+      .frame-20{
+        margin: 10% 30%;
+       
+      }
+      .learn-more{
+        font-size: 60%;
+        /* margin-top: 10%; */
+      }
+
+     }
+ 

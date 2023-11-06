@@ -1,0 +1,276 @@
+.help {
+  padding: 0px 120px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.helpaccordion {
+  width: 50%;
+}
+.accordion-icon {
+  display: flex;
+  border-radius: 55px;
+  background: #3461ff;
+  color: white;
+  border: none;
+}
+.accordion-content {
+  transition: 3s ease-in-out;
+}
+
+.accordion-label {
+  text-align: left;
+  font: var(--fweight) 18px/36px var(--font);
+  position: relative;
+}
+.hr1,
+.hr2 {
+  display: none;
+}
+.helpheader {
+  text-align: left;
+  font: var(--fweight) 40px/52px var(--font);
+  position: relative;
+  width: 487px;
+  margin-right: 0px;
+}
+.helpdesc {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  font: var(--fweight) 15px/30px var(--font);
+  opacity: 0.75;
+}
+.more-faq {
+  color: #3461ff;
+  text-align: left;
+  font: 600 15px/24px var(--font);
+  text-decoration: underline;
+  position: relative;
+  width: 105px;
+  margin-top: 50px;
+}
+
+.plusminus {
+  margin: 0 5px;
+}
+.plus {
+  width: 26px;
+  height: 28px;
+  justify-content: center;
+  transition: 3s ease-in-out;
+}
+.minus {
+  width: 28px;
+  height: 28px;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0;
+}
+.plusminusminus {
+  align-items: center;
+  height: 30px;
+  margin-top: -3px;
+}
+.accordion-contenthelp {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: var(--fweight);
+  line-height: 32px;
+  margin: 25px;
+  margin-top: 0;
+  margin-left: 0px;
+  animation: fadein 2s linear forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.helptext{
+  padding-left: 80px;
+  width: 450px;
+}
+.Herosearch1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.Heroemail1 {
+  border-radius: 37px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: transparent;
+  padding: 15px;
+  padding-right: 80px;
+  margin-right: 20px;
+  height: fit-content;
+}
+.Heroemail1::placeholder {
+  color: #aaa;
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: var(--fweight);
+}
+.Heroemail1:focus::placeholder{
+  display: none;
+}
+.accordiontitle{  
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    padding-right: 20px;
+    padding-left: 0;
+    align-items: "center",
+
+}
+.more-faq{
+  margin-left: 10%;
+}
+.talk1{
+  
+}
+
+
+@media (max-width: 1200px) {
+  .help{
+    margin:  8%;
+    padding: 0;
+    width: 84%;
+    display: block;
+    justify-content: center;
+  }
+  .helpaccordion{
+    width: 100%;
+    /* margin: 5%; */
+    /* margin-left: 0; */
+    /* width: 40%; */
+  }
+  
+  .accordiontitle{
+    padding:  2%;
+    
+    }
+  .accordion-contenthelp {
+    /* font-size: 80%;*/
+    line-height: 110%; 
+    margin: 0%;
+    /* margin: 30px;*/
+    margin-left: 2%; 
+  }
+  .helptext{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .helpdesc{
+    font-size: 90%;
+    text-align: justify;
+    padding-right: 10%;
+    display:flex;
+  }
+  .updatebr{
+    display: none;
+  }
+  .Herosearch1{
+    margin-top: 0;
+    display: block;
+    height: fit-content;
+    margin-left: 5px;
+    justify-content: flex-start;
+  }
+  .talk1{
+    white-space: nowrap;
+    margin: 1em; 
+    height: fit-content;
+    padding: 0.6em;
+    /* margin-left: 2em; */
+    font-size: 1.1em;
+  }
+  .Heroemail1{
+    height: fit-content;
+    padding: 1em;
+    margin: 1.5em; 
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .Heroemail1::placeholder{
+    font-size: 1.5em;
+    padding: 6px;
+  }
+  .Helpbtns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .more-faq{
+    margin-top: 0;
+    font-size: 1.3em;
+    width: 120px;
+  }
+  .helpheader{
+    font-size: 110%;
+    width: 100%;
+  }
+  .helptext{
+    margin-top: 20%;
+  }
+ 
+  .Heroemail1{
+    padding: 3%;
+    width: fit-content;
+    margin-right: 0;
+  }
+  .Heroemail1::placeholder{
+    font-size: 110%;
+  }
+  .talk1{
+    font-size: 70%;
+  }
+  .more-faq{
+    font-size: 80%;
+    margin:5%;
+    margin-right: 0;
+  
+    justify-content: center;
+  }
+  .vector5{
+    margin-bottom: -1%;
+  }
+  .helptext{justify-content: space-around;}
+}
+
+
+
+
+@media (max-width: 500px) {
+  .accordion-contenthelp {
+    font-size: 80%;
+    line-height: 110%;}
+    .accordion-label{
+      font-size: 90%;
+      line-height: 110%;
+    }
+    .helptext{
+      display: flex;
+      flex-direction: column;
+    }
+    .helpdesc{
+      font-size: 70%;
+    }
+    .Herosearch1{
+      width: 100%;
+    }
+    .Heroemail1::placeholder{
+      font-size: 90%;
+    }
+    .more-faq{
+      margin-left: 35%;
+    }
+}

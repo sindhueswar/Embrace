@@ -1,0 +1,358 @@
+.hero {
+  display: flex;
+  padding: 84px 120px;
+}
+.textsec {
+  text-align: left;
+  padding-right: 65px;
+  align-items: center;
+  width: 50%;
+}
+.Herotitle {
+  font-family: var(--font);
+  font-size: 83px;
+  font-weight: 600;
+  line-height: 80.5px;
+  letter-spacing: -4px;
+  margin-top: 100px;
+  transform: scale(0.94);
+  /* animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1); */
+}
+.singleword {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+.singleword:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.singleword:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.singleword:nth-child(4) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.singleword:nth-child(5) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.singleword:nth-child(7) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.singleword:nth-child(8) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.Herodesc {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--font);
+  font-size: 18px;
+  /* font-weight: var(--fweight); */
+  line-height: 32px;
+  margin-top: 40px;
+}
+.Herosearch {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.Heroemail {
+  border-radius: 37px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: transparent;
+
+  padding: 15px;
+  padding-right: 100px;
+}
+.Heroemail::placeholder {
+  color: #aaa;
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: var(--fweight);
+}
+.Heroemail:focus::placeholder{
+  display: none;
+}
+.Heropic {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width<1200px) {
+  .hero{
+    max-width: 100%;
+    padding: 0px;
+    margin: 12% 8%;
+    display: block;
+  }
+  .Herotitle{
+    font-size:800%;
+    margin-top: 40px;
+    letter-spacing: 0px;
+    line-height: 105%;
+  }
+  .textsec{
+    width: 100%;
+    padding-right: 0;
+  }
+  .Herodesc{
+    display: inline;
+  }
+  .Herodesc{
+    font-size: 100%;
+    margin: 50px 40px;
+    margin-right: 0;
+  }
+  .Herosearch{
+    height: 10%;
+    margin-top: 10%;
+    justify-content: space-around;
+  }
+  .Heropic{
+    margin-top: 15%;
+    width: 100%;
+  }
+}
+@media (width<768px) {
+  .hero{
+    max-width: 100%;
+    padding: 0px;
+    margin: 12% 8%;
+  }
+  .Herotitle{
+    font-size:600%;
+    margin-top: 40px;
+    letter-spacing: 0px;
+    line-height: 105%;
+  }
+  .Herodesc{
+    font-size: 100%;
+    margin: 50px 30px;
+    margin-right: 0;
+  }
+}
+@media (width<576px) {
+  .hero{
+    max-width: 100%;
+    padding: 0px;
+    margin: 20% 12%;
+  }
+  .Herotitle{
+    font-size:330%;
+    margin-top: 40px;
+    letter-spacing: 0px;
+    line-height: 105%;
+  }
+  .Herodesc{
+    font-size: 70%;
+    margin: 50px 10px;
+    margin-right: 0;
+  }
+  .Heroemail,.talk{
+    padding: 3%;
+    height: 10%;
+  }
+}
+/* @media (width<450px) {
+  .hero{
+    margin: 80px 40px;
+  }
+  .Herotitle{
+    font-size:330%;}
+} */
+@media (width<370px) {
+  .hero{
+    max-width: 100%;
+    padding: 0px;
+    margin: 60px 20px;
+ 
+  }
+  .Herotitle{
+    font-size:300%;
+    margin-top: 80px;
+    letter-spacing: 0px;
+    line-height: 105%;
+  }
+  .Herodesc{
+    font-size: 0.65em;
+    margin: 30px 10px;
+    margin-right: 0;
+  }
+  .Herosearch{
+    /* height: 10%;
+    margin-top: 10%; */
+    justify-content: space-between;
+  }
+  .Heroemail,.talk{
+    padding: 3%;
+    height: 10%;
+  }
+  
+  /* .Heroemail::placeholder{
+    height:10% ;
+  } */
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 1034px) {
+  .hero{
+    display: block;
+    width:1040px;
+  }
+ 
+  .Herotitle{
+  
+    font-size: 100px;
+   
+  }
+  .Herodesc{
+    font-size: 1.5em;
+    max-height: 2em;
+
+    margin-left: 5px;
+  }
+  .Herosearch{
+    
+    height: fit-content;
+    margin-left: 5px;
+    justify-content: flex-start;
+  }
+  .talk{
+    white-space: nowrap;
+    margin: 1em; 
+    height: fit-content;
+    padding: 0.6em;
+    margin-left: 2em;
+    font-size: 1.3em;
+  }
+  .Heroemail{
+    height: fit-content;
+    padding: 1em;
+    margin: 1.5em; 
+    margin-left: 0;
+  }
+  .Heroemail::placeholder{
+    font-size: 1.5em;
+    padding: 6px;
+  }
+  
+}  */

@@ -1,0 +1,91 @@
+.partners {
+  padding: 78px 120px;
+  background: #fafafa;
+  /* height: 552px; */
+}
+.partner-heading {
+  color: #000;
+  text-align: center;
+  font-family: var(--font);
+  font-size: 36px;
+  font-weight: var(--fweight);
+  letter-spacing: -1px;
+  margin: 0;
+  /* opacity: 0.6; */
+}
+.partners-1,
+.partners-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.spotify:hover,
+.google:hover,
+.uber:hover,
+.microsoft:hover,
+.shopify:hover,
+.evernote:hover,
+.adobe:hover,
+.paypal:hover,
+.amazon:hover,
+.asana:hover {
+  transform: scale(1.2);
+  transition: transform 1s ease-in-out;
+}
+
+@media (width<1200px) {
+  .partners {
+    padding: 10% 2% ;
+  }
+  .partners-1,
+.partners-2{
+/* display: block; */
+margin-top: 5%;
+ }
+  .partner-heading{
+    font-size: 150%;
+  }
+  .spotify,
+  .google,
+  .uber,
+  .microsoft,
+  .shopify,
+  .evernote,
+  .adobe,
+  .paypal,
+  .amazon,
+  .asana
+ {
+   width: 50%;
+   margin: 3% ;
+ }
+}
+
+@media (width<500px) {
+  .partners {
+    padding: 10% 2% ;
+  }
+  .partner-heading{
+    font-size: 130%;
+  }
+  .partners-1,
+.partners-2{
+display: block;
+margin-top: 10%;
+ }
+ .spotify,
+ .google,
+ .uber,
+ .microsoft,
+ .shopify,
+ .evernote,
+ .adobe,
+ .paypal,
+ .amazon,
+ .asana
+{
+  width: 100%;
+  margin: 5% 0%;
+}
+
+}

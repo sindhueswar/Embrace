@@ -1,0 +1,201 @@
+.work-carousel {
+  padding: 20px 120px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.work-heading {
+  font-family: var(--font);
+  font-size: 64px;
+  margin: 30px;
+}
+.workdesc {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--font);
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 50px;
+}
+.carousel-image {
+  width: 300px;
+  height: 224px;
+  border-radius: 40px;
+}
+.image-description {
+  font-size: 18px;
+  font-family: var(--font);
+  font-weight: 550;
+}
+.carousel-row {
+  display: flex;
+  justify-content: space-between;
+}
+.carousel-item {
+  animation: carouselscroll 3s ease-in-out infinite;
+  /* transition: animation 2s; */
+}
+
+@keyframes carouselscroll {
+  0% {
+    opacity: 0.6;
+    transform: translateX(50px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0.6;
+    transform: translateX(-50px);
+  }
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  28.57%,
+  71.43% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+}
+.pagination-button {
+  padding: 5px 15px;
+  margin: 1px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 35px;
+  margin-bottom: 50px;
+  transition: 0.5s ease-in-out;
+}
+.active {
+  background-color: var(--blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width<1200px) {
+  /* .work-carousel{
+    height: 90%;
+    /* width: 90%; *
+    padding: 0;
+  }
+  .work-heading{
+    font-size: 180%;
+    text-align: center;
+    margin: 2%;
+  }
+  .workdesc{
+    font-size: 95%;
+    line-height: 110%;
+    margin: 1%;
+  } */
+  .carousel-image{
+    margin: 2%;
+    width: 90%;
+    height: 80%;
+  }
+  .see{
+    padding: 3%;
+    font-size: 70%;
+    margin: 3%;
+  }
+  .pagination-button{
+   margin: 2% 1%;
+  } 
+  /* .carousel-row{
+    justify-content: space-around;
+    height: 10em;
+    width: 90%;
+  }
+  .workdesc{
+    font-size: 90%;
+  }
+  .carousel-container{
+    margin: 5%;
+  }
+  .image-description{
+    font-size: 120%;
+  }
+  */
+ 
+}
+
+
+@media (width<870px) {
+  .work-carousel{
+    height: 90%;
+    /* width: 90%; */
+    padding: 0;
+  }
+  .work-heading{
+    font-size: 180%;
+    text-align: center;
+    margin: 2%;
+  }
+  .workdesc{
+    font-size: 95%;
+    line-height: 110%;
+    margin: 1%;
+  }
+  .carousel-image{
+    margin: 2%;
+    width: 80%;
+    height: 80%;
+  }
+  .carousel-row{
+    justify-content: space-around;
+    height: 10em;
+    width: 90%;
+  }
+  .workdesc{
+    font-size: 90%;
+  }
+  .carousel-container{
+    margin: 5%;
+  }
+  .image-description{
+    font-size: 120%;
+  }
+  .see{
+    padding: 3%;
+    font-size: 70%;
+  }
+  .pagination-button{
+    padding: 1% 2%;
+  }
+}
+
+
+
+
+
